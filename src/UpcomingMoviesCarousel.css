@@ -1,0 +1,77 @@
+/* styles.css or equivalent */
+
+/* Carousel container */
+.carousel {
+    position: relative;
+    width: 100%;
+    margin: 2rem auto;
+    max-width: 1200px; /* Adjust as needed */
+}
+
+/* Carousel item container */
+.carousel-item {
+    border-radius: 15px; /* Rounded corners for the carousel item */
+    overflow: hidden; /* Ensures content does not overflow rounded corners */
+}
+
+/* Carousel images */
+.carousel-item img {
+    height: 400px; /* Consistent height for carousel images */
+    object-fit: cover; /* Ensure images cover the entire container */
+    width: 100%; /* Make sure images fill the carousel width */
+    border-radius: 15px; /* Match the rounded corners of the carousel item */
+}
+
+/* Carousel caption */
+.carousel-caption {
+    background: rgba(
+        0,
+        0,
+        0,
+        0.5
+    ); /* Semi-transparent background for better readability */
+    border-radius: 5px;
+    bottom: 20px; /* Position caption towards the bottom */
+    left: 20px; /* Align caption to the left */
+    padding: 1rem;
+    text-align: left; /* Align text to the left */
+    width: 80%; /* Control the width of the caption */
+}
+
+/* Caption title */
+.carousel-caption h3 {
+    font-size: 1.8rem; /* Larger font size for titles */
+    font-weight: bold; /* Bold title text */
+    color: #fff; /* White text color */
+}
+
+/* Caption text */
+.carousel-caption p {
+    font-size: 1rem; /* Adjust font size for description */
+    color: #ddd; /* Light gray text color */
+}
+
+/* Carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust width of navigation arrows */
+    color: #fff; /* Arrow color */
+    filter: brightness(0) invert(1); /* Ensure arrows are visible on dark backgrounds */
+}
+
+/* Control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for icons */
+    border-radius: 50%; /* Round icons */
+}
+
+/* Prev icon */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-left' viewBox='0 0 16 16'%3E%3Cpath d='M11.293 2.293a1 1 0 0 1 0 1.414L6.414 8l4.879 4.879a1 1 0 1 1-1.414 1.414l-5.5-5.5a1 1 0 0 1 0-1.414l5.5-5.5a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E");
+}
+
+/* Next icon */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-chevron-right' viewBox='0 0 16 16'%3E%3Cpath d='M4.707 13.707a1 1 0 0 1 0-1.414L9.586 8 4.707 3.121a1 1 0 0 1 1.414-1.414l5.5 5.5a1 1 0 0 1 0 1.414l-5.5 5.5a1 1 0 0 1-1.414 0z'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,90 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333; /* Ganti dengan warna latar belakang navbar yang diinginkan */
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #ffcc00; /* Ganti dengan warna hover yang diinginkan */
+}
+
+.navbar-button {
+    background-color: #ffcc00; /* Ganti dengan warna tombol yang diinginkan */
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: #e6b800; /* Ganti dengan warna hover tombol yang diinginkan */
+}
+
+.navbar-category {
+    margin-left: auto;
+    width: 200px; /* Sesuaikan lebar dropdown */
+}
+
+.react-select__control {
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.react-select__control--is-focused {
+    border-color: #ffcc00;
+}
+
+.react-select__menu {
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-select__option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.react-select__option--is-selected {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+.react-select__single-value {
+    color: #fff;
+}
